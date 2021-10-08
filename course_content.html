@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content - title</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar has-shadow is-white">
+      <div class="navbar-brand">
+        <a href="" class="navbar-item title is-4 mb-0">progressly</a>
+        <a class="navbar-burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+
+      <div class="navbar-menu" id="nav-links">
+        <div class="navbar-start">
+          <a href="/" class="navbar-item">Home</a>
+          <a class="navbar-item">Document</a>
+          <a class="navbar-item">Whatever</a>
+        </div>
+        <div class="navbar-end">
+          <button class="navbar-item button m-3">Login</button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-body">
+        <p class="title is-3">Content title</p>
+      </div>
+    </section>
+
+    <section
+      class="
+        container
+        is-flex is-flex-direction-column is-justify-content-center
+      "
+    >
+      <iframe
+        class="yt-player"
+        width="100%"
+        src="https://www.youtube.com/embed/A63UxsQsEbU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <div class="m-5 has-text-centered">
+        <button class="button">Prev</button>
+        <button class="button">Next</button>
+      </div>
+    </section>
+
+    <div class="container control">
+      <textarea
+        class="textarea has-fixed-size"
+        placeholder="Some Notes"
+      ></textarea>
+    </div>
+
+    <footer class="footer">
+      <div class="content has-text-centered is-size-5">
+        <strong>progressly</strong>: Learning Management System
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
